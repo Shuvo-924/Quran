@@ -144,6 +144,9 @@ input[type="checkbox"]{
 }
 .three{
     padding-top: 10px;
+    font-family: "Type2";
+    font-weight: 400;
+    color: darkcyan;
 }
 .three1{
     padding-bottom: 6px;
