@@ -1,0 +1,316 @@
+@font-face {
+    font-family: "Type1";
+    src: url(Fonts/FN\ Helal\ Farzana\ Uni&BE\ Italic.ttf);
+}
+@font-face {
+    font-family: "Type2";
+    src: url(Fonts/Jamrul.ttf) format('truetype');
+}
+@font-face{
+    font-family: "Content";
+    src: url(Fonts/);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scrollbar-gutter: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Type1', sans-serif;
+    background-color: aliceblue;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 7000px;
+    overflow-x: hidden;
+}
+nav .logo{
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+nav{
+    flex: 1;
+   text-align: right;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+}
+nav ul li{
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color:darkgrey;
+    font-size: 24px;
+    padding-right: 4vh;
+}
+nav ul li a:hover{
+    color: black;
+    z-index: 1;
+}
+.accordion{
+    margin: 10px auto;
+    width: 700px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e3edf7;
+    box-shadow: -6px 7px 15px -6px, 6px -7px 15px -18px;
+}  
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+label ::before{
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+input[type="checkbox"]{
+    display: none;
+}
+.accordion .content{
+    color: black;
+    font-family: "Content";
+    padding: 0 10px;
+    line-height: 1.5;
+    max-height: 0;
+    font-size: 16px;
+    font-weight: 80;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="checkbox"]:checked + label + .content{
+    max-height: 2500px;
+    padding: 10px 10px 20px;
+}
+
+.highlight{
+    color: red;
+    text-decoration: underline;   
+}
+
+.image{
+    width: 300px;
+    padding-top: 0;
+    min-height: 8vh;
+    cursor: pointer;
+}
+.icon{
+    display: none;
+}
+.logo{
+    width: 100%;
+    height: 13dvh;
+    background-color: rgb(95, 161, 171);
+    display: flex;
+    align-items: center;
+}
+
+.one{
+    padding-top: 10px;
+}
+.one1{
+    padding-bottom: 6px;
+    font-family: "Type2";
+    font-weight: 400;
+    color: darkcyan;
+}
+.two{
+    padding-top: 2px;
+}
+.two1{
+    padding-bottom: 10px;
+    font-family: "Type2";
+    font-weight: 400;
+    color: darkcyan;
+
+}
+.three{
+    padding-top: 10px;
+}
+.three1{
+    padding-bottom: 6px;
+    font-family: "Type2";
+    font-weight: 400;
+    color: darkcyan;
+}
+.three2{
+    padding-bottom: 4px;
+}
+.note{
+    text-align: end;
+}
+.note a{
+    color:dodgerblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 40;
+    font-style: italic;
+    padding: 3px;
+}
+.note a:hover{
+    border-bottom: dodgerblue 2.5px solid;
+}
+@media screen and (max-width: 370px) {
+    nav ul{
+        background-color: rgba(95, 161, 171, 0.95);
+        width: 100%;
+        position: absolute;
+        top: 8.8vh;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul{
+        padding-bottom: 0;
+    }
+    nav ul li{
+        list-style: none;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: lightgray;
+        font-size: 20px;
+        list-style: none;
+    }
+    .icon {
+        display: block;
+        margin-right: 3dvw;
+        min-width: 10%;
+        max-width: 70%;
+        min-height: 1vh;
+        max-height: 4.8vh;
+    }
+    
+    #list {
+        overflow: hidden;
+        display: block;
+        text-align: center;
+        transition: 0.7s;
+        z-index: 3;
+        margin: 0;
+        border: 0;
+        left: 0;
+        right: 0;
+    }
+    .accordion{
+        width: 300px;
+        left: 0;
+        right: 0;
+        text-align: left;
+        z-index: 1;
+        padding-right: 10dvw;
+    }
+    .accordion li{
+        list-style: none;
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 4px;
+        background: #e3edf7;
+        box-shadow: -10px 7px 13px -2px rgba(0, 0, 0, 0.5);
+    }
+    .accordion li label{
+        display: flex;
+        align-items: left;
+        padding: 4px;
+        font-size: 20px;
+        font-weight: 100;
+        cursor: pointer;
+    }
+    label ::before{
+        content: '>';
+        margin-right: 5px;
+        font-size: 20px;
+        font-weight: 50;  
+    }
+    .accordion .content{
+        color: black;
+        padding: 0 5px;
+        line-height: 1.4;
+        max-height: 0;
+        overflow: hidden;
+        font-size: 17px;
+        font-weight: 30;
+        transition: max-height 0.5s, padding 0.5s;
+    }
+    
+    .accordion input[type="checkbox"]:checked + label + .content{
+        max-height: 2500px;
+        padding: 5px 5px 10px;
+    }
+    
+    .image{
+        min-height: 5vh;
+        max-height: 20vh;
+        min-width: 20%;
+        max-width: 80%;
+        padding-top: 0.5%;
+        z-index: 4;
+    }
+    
+    .logo{
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(95, 161, 171);
+    }
+    .one{
+        padding-top: 6px;
+        font-weight: 30
+    }
+    .one1{
+        padding-bottom: 4px;
+        font-family: "Type2";
+        font-weight: 30;
+        color: darkcyan;
+    }
+    .two{
+        padding-top: 2px;
+        font-weight: 30;
+    }
+    .two1{
+        padding-bottom: 6px;
+        font-family: "Type2";
+        font-weight: 30;
+        color: darkcyan;
+    
+    }
+    .three{
+        padding-top: 6px;
+        font-weight: 30;
+    }
+    .three1{
+        padding-bottom: 4px;
+        font-family: "Type2";
+        font-weight: 30;
+        color: darkcyan;
+    }
+    .three2{
+        padding-bottom: 4px;
+        font-weight: 30;
+    }
+    .hr{
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 1px;
+        
+    }
+}
