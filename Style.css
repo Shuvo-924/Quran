@@ -55,6 +55,33 @@ nav ul li a:hover{
     color: powderblue;
     z-index: 1;
 }
+#title-box{
+    background:rgba(255, 255, 255, 0.05);
+    width: 23.85%;
+    top: 14%;
+    float: left;
+    text-align: center;
+    height: 40px;
+    position: fixed;
+    border-radius: 15px;
+    left: 2%;
+    animation: warp 1.8s ease;
+}
+@keyframes warp{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0.05);      
+    }
+    70%{
+        transform: scaleY(1); 
+        transform: scaleX(0.05);   
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
 .title{
     float:left;
     color: gold;
