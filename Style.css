@@ -439,6 +439,9 @@ input[type="checkbox"]{
         width: 660px;
         float: right;
     }
+    #title-box{
+        top: 12%;
+    }
     .title{
         left: 8%;
     }
