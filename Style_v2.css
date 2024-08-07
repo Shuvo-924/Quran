@@ -182,7 +182,7 @@ nav ul li a:hover{
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
-    animation: warp2 5s ease forwards;
+    animation: warp2 6s ease forwards;
 }
 .card{
     width: 50px;
@@ -193,7 +193,7 @@ nav ul li a:hover{
     overflow: hidden;
     display: flex;
     align-items: center;
-    animation: smth 5s ease;
+    animation: smth 6s ease;
     transition: 0.7s cubic-bezier(.28, -0.03, 0, 0.99);
 }
 .card > .row{
@@ -208,7 +208,7 @@ nav ul li a:hover{
     height: 30px;
     width: 30px;
     display: flex;
-    margin-top: 5vh;
+    margin-top: 5.5vh;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
