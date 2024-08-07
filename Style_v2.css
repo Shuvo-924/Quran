@@ -238,6 +238,7 @@ input:checked + label .description{
 }
 .card[for="c1"]{
     background-image: url(Interior.jpg);
+    background-size: cover;
     z-index: 5;
 }
 .card[for="c2"]{
