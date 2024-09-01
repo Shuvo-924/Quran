@@ -210,7 +210,7 @@ nav ul li a:hover{
     left: 1.8%;
     text-align: center;
     justify-content: center;
-    animation: warp1 4s ease;
+    animation: warp1 8s ease;
 }
 @keyframes warp1{
     0%{
@@ -239,7 +239,7 @@ nav ul li a:hover{
     animation-delay: 2.2s;
     outline: none;
     animation: flicker 3s linear  forwards;
-    animation-delay: 4s;
+    animation-delay: 8s;
 }
 @keyframes flicker{
     0%,18%,25%,38.1%,48%,60.1%,88%{
@@ -282,7 +282,7 @@ nav ul li a:hover{
     top: 25%;
     padding-right: 10px;
     padding-left: 10px;
-    animation: warp 4s ease;
+    animation: warp 8s ease;
 }
 .quran{
     height: 250px;
@@ -307,7 +307,7 @@ nav ul li a:hover{
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
-    animation: warp2 4s ease-in forwards;
+    animation: warp2 8s ease-in forwards;
 }
 .card{
     height: 200px;
@@ -320,7 +320,7 @@ nav ul li a:hover{
     overflow: hidden;
     display: flex;
     align-items: center;
-    animation: smth 4s ease-in-out forwards;
+    animation: smth 8s ease-in-out forwards;
     transition: 0.8s cubic-bezier(.28, -0.03, 0, 0.99);
     box-shadow: -2.2px 2px 15px -8px, 10px 0px 15px -20px;
 }
@@ -469,7 +469,7 @@ input{
 .line:first-child{
     opacity: 0;
     animation: fade 0.1s forwards;
-    animation-delay: 4s;
+    animation-delay: 8s;
 }
 @keyframes fade{
     0%{
@@ -507,7 +507,7 @@ input{
 }
 .line:first-child{
     animation: anim 90s infinite;
-    animation-delay: 4s;
+    animation-delay: 8s;
 }
 .line:hover{
     animation-play-state: paused;
@@ -656,7 +656,7 @@ input{
     top: 7.7dvh;
     float: right;
     animation: anim1 1.4s forwards;
-    animation-delay: 0.6s;
+    animation-delay: 1s;
 }
 @keyframes anim1{
     0%{
