@@ -210,7 +210,8 @@ nav ul li a:hover{
     left: 1.8%;
     text-align: center;
     justify-content: center;
-    animation: warp1 8s ease;
+    animation: warp1 4s ease;
+    animation-delay: 8s;
 }
 @keyframes warp1{
     0%{
@@ -283,6 +284,7 @@ nav ul li a:hover{
     padding-right: 10px;
     padding-left: 10px;
     animation: warp 8s ease;
+    animation-delay: 8s;
 }
 .quran{
     height: 250px;
@@ -307,7 +309,8 @@ nav ul li a:hover{
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
-    animation: warp2 8s ease-in forwards;
+    animation: warp2 4s ease-in forwards;
+    animation-delay: 8s;
 }
 .card{
     height: 200px;
@@ -321,6 +324,7 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
     animation: smth 8s ease-in-out forwards;
+    animation-delay: 8s;
     transition: 0.8s cubic-bezier(.28, -0.03, 0, 0.99);
     box-shadow: -2.2px 2px 15px -8px, 10px 0px 15px -20px;
 }
@@ -469,7 +473,7 @@ input{
 .line:first-child{
     opacity: 0;
     animation: fade 0.1s forwards;
-    animation-delay: 8s;
+    animation-delay: 10s;
 }
 @keyframes fade{
     0%{
