@@ -1,10 +1,14 @@
 function search(){
-    var searchbox,storeitems,li,i,txtValue,match;
-
-    searchbox = document.getElementById("search0").value;
+    var srchicon,searchbox,storeitems,li,i,txtValue,match;
+    srchicon = document.querySelector(".srch");
     storeitems = document.getElementById("accordion");
     li = storeitems.getElementsByTagName('li');
-
+    if (srchicon.classList.contains("srch1")) {
+      searchbox = document.getElementById("search1").value;
+    }
+    else{
+      searchbox = document.getElementById("search0").value;
+    }
     for (var i=0; i < li.length; i++){
         match = li[i].getElementsByTagName("label")[0];
         txtValue = match.textContent || match.innerText || match.innerHTML;
