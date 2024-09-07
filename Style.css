@@ -2111,6 +2111,9 @@ nav ul li a:hover{
         animation: anim3 1.4s forwards;
         animation-delay: 0.6s;
     }
+    .quran{
+        top: 5%;
+    }
     @keyframes anim3{
         0%{
             top: 7vh;
