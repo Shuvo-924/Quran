@@ -36,7 +36,7 @@ body{
     font-size: 16px;
     font-family: 'Type1', sans-serif;
     background-image: url(ShootingStars1.gif);
-    background-size: 100vw;
+    background-size: 100vw 100vh;
     background-attachment: fixed;
     min-height: 100vh;
     max-height: 8000px;
