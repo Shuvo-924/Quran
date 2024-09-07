@@ -2076,6 +2076,10 @@ nav ul li a:hover{
     0 0 0.75px rgba(0, 0, 0, 3),
     0 0 1.25px rgba(0, 0, 0, 3);
     }
+    .subtopic{
+        font-weight: 500;
+        left: -4%;
+    }
     .one{
         padding-top: 6px;
         font-weight: 500;
