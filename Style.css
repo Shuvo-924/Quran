@@ -2070,6 +2070,11 @@ nav ul li a:hover{
         height: 10vh;
         background-color: rgba(0, 25, 25, 0.05);
     }
+    .highlight{
+        text-shadow: 0 0 0.5px rgba(0, 0, 0, 3),
+    0 0 0.75px rgba(0, 0, 0, 3),
+    0 0 1.25px rgba(0, 0, 0, 3);
+    }
     .one{
         padding-top: 6px;
         font-weight: 500;
