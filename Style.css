@@ -2089,7 +2089,9 @@ nav ul li a:hover{
         font-family: "Type2";
         font-weight: 500;
         color: powderblue;
-        text-shadow: none;
+        text-shadow: 0 0 0.5px rgba(0, 0, 0, 1),
+    0 0 1px rgba(0, 0, 0, 1),
+    0 0 1.5px rgba(0, 0, 0, 1);
     }
     .two{
         padding-top: 2px;
@@ -2100,7 +2102,9 @@ nav ul li a:hover{
         font-family: "Type2";
         font-weight: 500;
         color: powderblue;
-        text-shadow: none;
+        text-shadow: 0 0 0.5px rgba(0, 0, 0, 1),
+    0 0 1px rgba(0, 0, 0, 1),
+    0 0 1.5px rgba(0, 0, 0, 1);
     
     }
     .three{
@@ -2108,14 +2112,18 @@ nav ul li a:hover{
         font-weight: 500;
         font-family: "Type2";
         color: powderblue;
-        text-shadow: none;
+        text-shadow: 0 0 0.5px rgba(0, 0, 0, 1),
+    0 0 1px rgba(0, 0, 0, 1),
+    0 0 1.5px rgba(0, 0, 0, 1);;
     }
     .three1{
         padding-bottom: 4px;
         font-family: "Type2";
         font-weight: 500;
         color: powderblue;
-        text-shadow: none;
+        text-shadow: 0 0 0.5px rgba(0, 0, 0, 1),
+    0 0 1px rgba(0, 0, 0, 1),
+    0 0 1.5px rgba(0, 0, 0, 1);
     }
     .three2{
         padding-bottom: 4px;
