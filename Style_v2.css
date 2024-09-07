@@ -41,7 +41,7 @@ body{
     background-attachment: fixed;
     min-height: min-content;
     max-height: 8000px;
-    transition: all 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: all 0.7s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     overflow-y: scroll;
 }
 #container {
