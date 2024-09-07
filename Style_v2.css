@@ -37,7 +37,7 @@ body{
     font-size: 17px;
     font-family: 'Type1', sans-serif;
     background-image: url(Green-mountain-landscape-vector-illustration-scenery.jpg);
-    background-size: 100vw;
+    background-size: 100vw 100vh;
     background-attachment: fixed;
     min-height: min-content;
     max-height: 8000px;
@@ -2051,6 +2051,14 @@ nav ul{
     }
 }
 @media screen and (max-height: 520px) and (max-width: 435px){
+    #container {
+    background: rgba(248, 248, 248, 1) url(Preloader1.gif) no-repeat center center;
+    height: 100vh;
+    background-size: 50%;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+  }
     .search-wrapper{
         top: 0vh;
     }
@@ -2092,7 +2100,7 @@ nav ul{
         }
     }
     .quran{
-        top: 10%;
+        top: 7%;
         height: 250px;
     }
     .cards{
