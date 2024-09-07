@@ -1529,7 +1529,7 @@ input[type="checkbox"]{
     }
     
     .accordion input[type="checkbox"]:checked + label + .content{
-        max-height: 4000px;
+        max-height: 60000px;
         padding: 5px 5px 10px;
     }
     .accordion input[type="checkbox"]:checked + label::after{
@@ -2037,7 +2037,7 @@ nav ul li a:hover{
     }
     
     .accordion input[type="checkbox"]:checked + label + .content{
-        max-height: 40000px;
+        max-height: 60000px;
         padding: 5px 5px 10px;
     }
     .accordion input[type="checkbox"]:checked + label{
