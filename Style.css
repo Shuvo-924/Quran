@@ -2027,7 +2027,7 @@ nav ul li a:hover{
     }
     .accordion .content{
         color: gold;
-        padding: 0 5px;
+        padding: 0 5px 0 0;
         line-height: 1.4;
         max-height: 0;
         overflow: hidden;
