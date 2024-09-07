@@ -41,7 +41,7 @@ body{
     min-height: 100vh;
     max-height: 8000px;
     overflow-y: scroll;
-    transition: all 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: all 2s cubic-bezier(0.8, -0.5, 0, 1.25);
 }
 #container {
     background: rgba(18, 18, 18, 1) url(Preloader2.gif) no-repeat center center;
