@@ -1968,6 +1968,16 @@ nav ul li a:hover{
     .close2{
         display: none;
     }
+    .vid0{
+    border-radius: 8px;
+    height: 168px;
+    width: 300px;
+    overflow: hidden;
+}
+.mob-vid0{
+    height: 168px;
+    width: 300px;
+}
     .vid{
         height: 168px;
         width: 300px;
