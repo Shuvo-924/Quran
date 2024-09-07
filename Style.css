@@ -1126,6 +1126,7 @@ input[type="checkbox"]{
     position: relative;
     left: -10px;
     margin-top: 10px;
+    text-shadow: none;
 }
 .dsp{
     width: 0px;
