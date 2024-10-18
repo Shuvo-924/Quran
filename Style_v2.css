@@ -1454,10 +1454,9 @@ nav ul{
         right: 0;
     }
     .quran{
-        height: 200px;
-        width: 95%;
+        width: 100%;
         top: 12%;
-        padding-left: 0;
+        padding-left: 0px;
         overflow: hidden;
         overflow-x: scroll;
         scrollbar-width: 0px;
@@ -1469,7 +1468,6 @@ nav ul{
     .cards{
         display: flex;
         justify-content: start;
-        overflow: visible;
         animation: warp3 4s ease-in-out forwards;
     }
     @keyframes warp3 {
