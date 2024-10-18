@@ -1460,10 +1460,12 @@ nav ul{
         padding-left: 0;
         overflow: hidden;
         overflow-x: scroll;
-    }
-    .quran::-webkit-scrollbar{
-        opacity: 0;
-    }
+        scrollbar-width: 0px;
+        scrollbar-color: transparent;
+}
+.quran::-webkit-scrollbar{
+    opacity: 0;
+}
     .cards{
         display: flex;
         justify-content: start;
