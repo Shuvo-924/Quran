@@ -1457,7 +1457,7 @@ nav ul{
         width: 100%;
         top: 12%;
         padding-left: 0px;
-        overflow: hidden;
+        overflow: visible;
         overflow-x: scroll;
         scrollbar-width: 0px;
         scrollbar-color: transparent;
