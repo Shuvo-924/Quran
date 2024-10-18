@@ -1458,6 +1458,7 @@ nav ul{
         width: 100%;
         top: 12%;
         padding-left: 0;
+        overflow: hidden;
         overflow-x: scroll;
     }
     .quran::-webkit-scrollbar{
