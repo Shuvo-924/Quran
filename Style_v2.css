@@ -1467,6 +1467,7 @@ nav ul{
 }
     .cards{
         display: flex;
+        width: 300%
         justify-content: start;
         animation: warp3 4s ease-in-out forwards;
     }
