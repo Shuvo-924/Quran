@@ -1457,7 +1457,7 @@ nav ul{
         width: 100%;
         top: 12%;
         padding-left: 0px;
-        overflow: visible;
+        overflow: hidden;
         overflow-x: scroll;
         scrollbar-width: 0px;
         scrollbar-color: transparent;
@@ -1468,7 +1468,6 @@ nav ul{
     .cards{
         display: flex;
         justify-content: start;
-        overflow: visible;
         animation: warp3 4s ease-in-out forwards;
     }
     @keyframes warp3 {
