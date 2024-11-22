@@ -1084,7 +1084,7 @@ input[type="checkbox"]{
     line-height: 1.5;
     max-height: 0;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     word-spacing: 3px;
     overflow: hidden;
     transition: max-height 0.8s ease-in-out, padding 0.5s;
@@ -1120,7 +1120,7 @@ input[type="checkbox"]{
     border-radius: 10px;
     font-size: 17px;
     width: fit-content;
-    font-weight: 500;
+    font-weight: 600;
     text-shadow: none;
     padding: 5px 7px 3px 7px;
     position: relative;
@@ -1993,7 +1993,7 @@ input[type="checkbox"]{
         padding: 0;
         font-size: 16px;
         font-family: 'Type1', sans-serif;
-        background: url(OceanRocks.jpg) center center no-repeat;
+        background: url(PlanetsDay.jpg) center center no-repeat;
         background-size: 330%;
         position: relative;
         background-attachment: fixed;
