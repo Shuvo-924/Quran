@@ -2071,8 +2071,7 @@ a:focus,
 #search0{
     position: absolute;
     top: -24%;
-    right: 0;
-    left: 15vw;
+    left: -33%;
 }
   #search0:focus{
     border-color: black;
