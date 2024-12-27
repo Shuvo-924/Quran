@@ -38,7 +38,7 @@
 </div>
    </nav>
    </div>
-   <div class="popup"><div id="txt"><button class="okbtn"><img src="Cross3.svg" width="20px" height="20px"></button>আস্‌সালামু আলাইকুম, আপনাকে স্বাগতম এই ওয়েবসাইটে। এই ওয়েবপাইজটি তৈরির উদ্দেশ্য এই যে আমাদের যাদের ইসলামের মূল বিষয়বস্তু সম্পর্কে ধারণা কম বা সন্দেহ রয়েছে তাদেরকে কুরআন এবং বিশুদ্ধ হাদীস এর আলোকে তথ্য দিয়ে সাহায্য করা। তাই আশা রইলো আপনি আন্তরিকভাবে ইসলামকে জানার চেষ্টা করবেন। </div>
+   <div class="popup"><div id="txt"><button class="okbtn"><img src="Cross3.svg" width="20px" height="20px"></button>আস্‌সালামু আলাইকুম, আপনাকে স্বাগতম এই ওয়েবপেইজে। এই ওয়েবপেইজটি তৈরির উদ্দেশ্য এই যে আমাদের যাদের ইসলামের মূল বিষয়বস্তু সম্পর্কে ধারণা কম বা সন্দেহ রয়েছে তাদেরকে কুরআন এবং বিশুদ্ধ হাদীস এর আলোকে তথ্য দিয়ে সাহায্য করা। তাই আশা রইলো আপনি আন্তরিকভাবে ইসলামকে জানার চেষ্টা করবেন। </div>
    </div>
 </head> 
 <body>
@@ -3273,7 +3273,7 @@
       var acrdn = document.querySelector(".none4");
       var ppp = document.querySelector(".popup");
       var wel = document.getElementById("txt");
-      let count = 0;
+      var btn = document.querySelector(".okbtn");
       
       function closecontainer(){
             loader.style.display = 'none';
@@ -3307,6 +3307,7 @@
          wel.style.display = 'none';
          wel.style.maxHeight = '0px';
          wel.style.zIndex = '1';
+         btn.style.opacity = '0';
       }
 
       function txtClose(){
@@ -3376,7 +3377,6 @@
       const tv = document.querySelector(".vid0");
       const ttrl = document.querySelector(".mob-vid0");
       const qts = document.querySelectorAll(".description");
-      var btn = document.querySelector(".okbtn");
       var wel = document.getElementById("txt");
       
       playbtn.style.opacity = '0';
