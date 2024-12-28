@@ -2515,7 +2515,7 @@ nav ul{
             justify-content: center;
             flex-direction: column;
             overflow: hidden;
-            font-size: 100%;
+            font-size: 90%;
             font-weight: 500;
             text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
                          0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
@@ -2601,7 +2601,7 @@ nav ul{
             background-size: 120vw;
         }
         #II{
-            font-size: 95%;
+            font-size: 85%;
             line-height: 1.2;
         }
         @keyframes smth{
