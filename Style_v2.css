@@ -1912,11 +1912,11 @@ input[type="checkbox"]{
               
         }
         41%{
-            margin-right: -53.5px;
+            margin-right: -20vw;
         }
         60%{
             transform-origin: left;
-            margin-right: -53.5px;
+            margin-right: -20vw;
             
         }
         100%{
@@ -2049,7 +2049,7 @@ input[type="checkbox"]{
     }
     .accordion input[type="checkbox"]:checked + label + .content{
         max-height: 60000px;
-        padding: 10px 10px 20px;
+        padding: 10px 10px 20px 10px;
     }
     .accordion input[type="checkbox"]:checked + label::after{
         transform: rotate(90deg);
@@ -2689,8 +2689,8 @@ nav ul{
     }
     
     .accordion input[type="checkbox"]:checked + label + .content{
-        max-height: 60000px;
-        padding: 5px 5px 5px;
+        max-height: 80000px;
+        padding: 5px 5px 10px 5px;
     }
     .accordion input[type="checkbox"]:checked + label{
         width: 95%;
@@ -3268,8 +3268,8 @@ nav ul{
     }
     
     .accordion input[type="checkbox"]:checked + label + .content{
-        max-height: 60000px;
-        padding: 5px 5px 5px;
+        max-height: 80000px;
+        padding: 5px 5px 5px 5px;
     }
     .accordion input[type="checkbox"]:checked + label{
         width: 95%;
