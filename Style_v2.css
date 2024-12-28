@@ -684,7 +684,7 @@ input{
     background-size: 300px;
 }
 .card[for="c8"]{
-    background-image: url(Lantern[19].jpg);
+    background-image: url(Lantern.jpg);
     background-size: 320px;
 }
 .card[for="c9"]{
@@ -1861,7 +1861,7 @@ input[type="checkbox"]{
         background-size: 300px;
     }
     .card[for="c8"]{
-        background-image: url(Lantern[19].jpg);
+        background-image: url(Lantern.jpg);
         background-size: 300px;
     }
     .card[for="c9"]{
@@ -2559,7 +2559,7 @@ nav ul{
             background-size: 100vw;
         }
         .card[for="c8"]{
-            background-image: url(Lantern[19].jpg);
+            background-image: url(Lantern.jpg);
             background-size: 110vw;
         }
         .card[for="c9"]{
@@ -3161,7 +3161,7 @@ nav ul{
         background-size: 100vw;
     }
     .card[for="c8"]{
-        background-image: url(Lantern[19].jpg);
+        background-image: url(Lantern.jpg);
         background-size: 110vw;
     }
     .card[for="c9"]{
