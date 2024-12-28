@@ -51,7 +51,7 @@ body{
     background-size: 50%;
     width: 100vw;
     position: fixed;
-    z-index: 2;
+    z-index: 102;
 }
 .popup{
     position: fixed;
@@ -672,9 +672,9 @@ nav ul li a:hover{
     flex-direction: column;
     overflow: hidden;
     font-size: 15.5px;
-    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
-    0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
-    0.5px 0.5px 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.8px 0.8px 1px rgba(0, 0, 0, 0.8),
+                 0.8px 0.8px 1px rgba(0, 0, 0, 0.8),
+                 0.8px 0.8px 1px rgba(0, 0, 0, 0.8);
     height: 160px;
     width: 18.5vw;
     opacity: 0;
@@ -1468,7 +1468,7 @@ input[type="checkbox"]{
         background-size: 50%;
         width: 100vw;
         position: fixed;
-        z-index: 100;
+        z-index: 102;
       }
     nav .logo{
         width: 100dvw;
@@ -1862,9 +1862,9 @@ input[type="checkbox"]{
         flex-direction: column;
         overflow: hidden;
         font-size: 90%;
-        text-shadow: 0 0 1px rgba(0, 0, 0, 0.9),
-                     0 0 2px rgba(0, 0, 0, 0.9),
-                     0 0 4px rgba(0, 0, 0, 0.9);
+        text-shadow: 0.8px 0.8px 1px rgba(0, 0, 0, 0.8),
+                 0.8px 0.8px 1px rgba(0, 0, 0, 0.8),
+                 0.8px 0.8px 1px rgba(0, 0, 0, 0.8);
         height: 38vh;
         width: 28.2vw;
         opacity: 0;
@@ -2171,7 +2171,7 @@ a:focus,
     background-size: 50%;
     width: 100vw;
     position: fixed;
-    z-index: 100;
+    z-index: 102;
 }
 .popup{
     max-height: 0px;
@@ -2530,11 +2530,11 @@ nav ul li a:hover{
         justify-content: center;
         flex-direction: column;
         overflow: hidden;
-        font-size: 100%;
+        font-size: 95%;
         font-weight: 500;
-        text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
-                     0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
-                     0.5px 0.5px 1px rgba(0, 0, 0, 0.5);
+        text-shadow: 0.8px 0.8px 1px rgba(0, 0, 0, 0.8),
+                 0.8px 0.8px 1px rgba(0, 0, 0, 0.8),
+                 0.8px 0.8px 1px rgba(0, 0, 0, 0.8);
         height: 30vh;
         width: 50vw;
         opacity: 0;
@@ -2720,7 +2720,7 @@ nav ul li a:hover{
         max-height: 0;
         overflow: hidden;
         word-spacing: 90%;
-        font-size: 19px;
+        font-size: 20px;
         font-weight: 500;
         transition: max-height 0.3s cubic-bezier(0.19, 1, 0.22, 1), padding 0.5s;
     }
@@ -2740,7 +2740,6 @@ nav ul li a:hover{
     .image{
         position: absolute;
         left: 7.8%;
-        width: auto;
         min-height: 5vh;
         max-height: 20vh;
         min-width: 10%;
@@ -2750,9 +2749,9 @@ nav ul li a:hover{
     .pic{
         position: relative;
         padding-top: 0;
-        top: 0.5vh;
-        padding-left: 1.2dvw;
-        height: 5vh;
+        top: 0.4vh;
+        padding-left: 1dvw;
+        height: 4.5vh;
         width: 6.6dvw;
     }
     .logo{
@@ -2785,6 +2784,7 @@ nav ul li a:hover{
         padding-bottom: 6px;
         font-family: "Type2";
         font-weight: 500;
+        font-size: 18px;
         color: powderblue;
         text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 1),
         0.5px 0.5px 1px rgba(0, 0, 0, 1),
@@ -2801,6 +2801,7 @@ nav ul li a:hover{
         padding-bottom: 6px;
         font-family: "Type2";
         font-weight: 500;
+        font-size: 18px;
         color: powderblue;
          text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 1),
         0.5px 0.5px 1px rgba(0, 0, 0, 1),
@@ -2809,6 +2810,7 @@ nav ul li a:hover{
     .three{
         padding-top: 8px;
         font-weight: 500;
+        font-size: 18px;
         font-family: "Type2";
         color: powderblue;
         text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 1),
@@ -2819,6 +2821,7 @@ nav ul li a:hover{
         padding-bottom: 6px;
         font-family: "Type2";
         font-weight: 500;
+        font-size: 18px;
         color: powderblue;
         text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 1),
         0.5px 0.5px 1px rgba(0, 0, 0, 1),
@@ -2875,7 +2878,7 @@ a:focus,
     background-size: 50%;
     width: 100vw;
     position: fixed;
-    z-index: 100;
+    z-index: 102;
 }
 .popup{
     max-height: 0px;
@@ -2901,10 +2904,10 @@ a:focus,
                  0.8px 0.8px 1px rgba(0, 0, 0, 0.8);
     top: 28vh;
     left: 0vw;
-    height: 30vh;
+    height: 40vh;
     width: 80vw;
     font-size: 17px;
-    line-height: 1.5;
+    line-height: 1.3;
     border-radius: 15px;
     background-color: rgba(240, 248, 255, 0.8);
     backdrop-filter: blur(2px);
@@ -2914,7 +2917,7 @@ a:focus,
     text-align: center;
     justify-content: center;
     align-content: center;
-    padding: 0 10vw 0 10vw;
+    padding: 0 8vw 0 8vw;
 }
 #welcome{
     max-height: 0px;
@@ -2924,10 +2927,10 @@ a:focus,
     text-shadow: none;
     top: 28vh;
     left: 0vw;
-    height: 30vh;
+    height: 40vh;
     width: 80vw;
     font-size: 17px;
-    line-height: 1.5;
+    line-height: 1.3;
     border-radius: 15px;
     background-color: rgba(240, 248, 255, 0.8);
     backdrop-filter: blur(2px);
@@ -2937,7 +2940,7 @@ a:focus,
     text-align: center;
     justify-content: center;
     align-content: center;
-    padding: 0 10vw 0 10vw;
+    padding: 0 8vw 0 8vw;
     animation: warp 2.5s reverse;
 }
 .okbtn{
@@ -3233,11 +3236,11 @@ nav ul li a:hover{
         justify-content: center;
         flex-direction: column;
         overflow: hidden;
-        font-size: 100%;
+        font-size: 90%;
         font-weight: 500;
-        text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
-                     0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
-                     0.5px 0.5px 1px rgba(0, 0, 0, 0.5);
+        text-shadow: 0.8px 0.8px 1px rgba(0, 0, 0, 0.8),
+                 0.8px 0.8px 1px rgba(0, 0, 0, 0.8),
+                 0.8px 0.8px 1px rgba(0, 0, 0, 0.8);
         height: 30vh;
         width: 50vw;
         opacity: 0;
@@ -3423,7 +3426,7 @@ nav ul li a:hover{
         max-height: 0;
         overflow: hidden;
         word-spacing: 90%;
-        font-size: 19px;
+        font-size: 20px;
         font-weight: 500;
         transition: max-height 0.3s cubic-bezier(0.19, 1, 0.22, 1), padding 0.5s;
     }
@@ -3488,6 +3491,7 @@ nav ul li a:hover{
         padding-bottom: 6px;
         font-family: "Type2";
         font-weight: 500;
+        font-size: 18px;
         color: powderblue;
         text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 1),
         0.5px 0.5px 1px rgba(0, 0, 0, 1),
@@ -3504,6 +3508,7 @@ nav ul li a:hover{
         padding-bottom: 6px;
         font-family: "Type2";
         font-weight: 500;
+        font-size: 18px;
         color: powderblue;
          text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 1),
         0.5px 0.5px 1px rgba(0, 0, 0, 1),
@@ -3512,6 +3517,7 @@ nav ul li a:hover{
     .three{
         padding-top: 8px;
         font-weight: 500;
+        font-size: 18px;
         font-family: "Type2";
         color: powderblue;
         text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 1),
@@ -3522,6 +3528,7 @@ nav ul li a:hover{
         padding-bottom: 6px;
         font-family: "Type2";
         font-weight: 500;
+        font-size: 18px;
         color: powderblue;
         text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 1),
         0.5px 0.5px 1px rgba(0, 0, 0, 1),

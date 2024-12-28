@@ -2515,7 +2515,7 @@ nav ul{
             justify-content: center;
             flex-direction: column;
             overflow: hidden;
-            font-size: 90%;
+            font-size: 100%;
             font-weight: 500;
             text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
                          0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
@@ -2601,7 +2601,7 @@ nav ul{
             background-size: 120vw;
         }
         #II{
-            font-size: 85%;
+            font-size: 95%;
             line-height: 1.2;
         }
         @keyframes smth{
@@ -2733,9 +2733,9 @@ nav ul{
     .pic{
         position: relative;
         padding-top: 0;
-        top: 0.5vh;
-        padding-left: 1.2dvw;
-        height: 5vh;
+        top: 0.4vh;
+        padding-left: 1dvw;
+        height: 4.7vh;
         width: 6.6dvw;
     }
     .logo{
