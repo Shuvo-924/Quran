@@ -2706,6 +2706,7 @@ nav ul{
         max-height: 0;
         overflow: hidden;
         font-weight: 600;
+        font-size: 20px;
         transition: max-height 0.6s ease, padding 0.5s;
     }
     
@@ -2763,6 +2764,7 @@ nav ul{
         padding-bottom: 8px;
         font-family: "Type2";
         font-weight: 500;
+        font-size: 18px;
     }
     .two{
         padding-top: 2px;
@@ -2771,11 +2773,13 @@ nav ul{
         padding-bottom: 10px;
         font-family: "Type2";
         font-weight: 500; 
+        font-size: 18px;
         color: rgba(241, 199, 61, 0.984);   
     }
     .three{
         padding-top: 10px;
         font-weight: 500;
+        font-size: 18px;
         font-family: "Type2";
         color: rgba(241, 199, 61, 0.984);
     }
@@ -2783,6 +2787,7 @@ nav ul{
         padding-bottom: 8px;
         font-family: "Type2";
         font-weight: 500;
+        font-size: 18px;
         color: rgba(241, 199, 61, 0.984);
     }
     .three2{
