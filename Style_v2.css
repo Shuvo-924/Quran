@@ -688,7 +688,7 @@ input{
     background-size: 320px;
 }
 .card[for="c9"]{
-    background-image: url(Architechteral.jpg);
+    background-image: url(Architechteral1.jpg);
     background-size: 360px;
 }
 .card[for="c10"]{
@@ -1865,7 +1865,7 @@ input[type="checkbox"]{
         background-size: 300px;
     }
     .card[for="c9"]{
-        background-image: url(Architechteral.jpg);
+        background-image: url(Architechteral1.jpg);
         background-size: 360px;
     }
     .card[for="c10"]{
@@ -2585,7 +2585,7 @@ nav ul{
             background-size: 110vw;
         }
         .card[for="c9"]{
-            background-image: url(Architechteral.jpg);
+            background-image: url(Architechteral1.jpg);
             background-size: 150vw;
         }
         .card[for="c10"]{
@@ -3182,7 +3182,7 @@ nav ul{
         background-size: 110vw;
     }
     .card[for="c9"]{
-        background-image: url(Architechteral.jpg);
+        background-image: url(Architechteral1.jpg);
         background-size: 150vw;
     }
     .card[for="c10"]{
