@@ -2161,7 +2161,7 @@ input[type="checkbox"]{
     body{
         margin: 0;
         padding: 0;
-        font-size: 18.5px;
+        font-size: 16px;
         font-family: 'Type1', sans-serif;
         background: url(PlanetsDay.jpg) center center no-repeat;
         background-size: 390%;
@@ -2515,7 +2515,7 @@ nav ul{
             justify-content: center;
             flex-direction: column;
             overflow: hidden;
-            font-size: 90%;
+            font-size: 95%;
             font-weight: 500;
             text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
                          0.5px 0.5px 1px rgba(0, 0, 0, 0.5),
@@ -2601,7 +2601,7 @@ nav ul{
             background-size: 120vw;
         }
         #II{
-            font-size: 85%;
+            font-size: 90%;
             line-height: 1.2;
         }
         @keyframes smth{
