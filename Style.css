@@ -2629,11 +2629,11 @@ nav ul li a:hover{
               
         }
         41%{
-            margin-right: -18vw;
+            margin-right: -20vw;
         }
         60%{
             transform-origin: left;
-            margin-right: -18vw;
+            margin-right: -20vw;
             
         }
         100%{
