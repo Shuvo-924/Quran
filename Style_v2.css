@@ -2467,28 +2467,6 @@ nav ul{
             transition: 0.6s cubic-bezier(.28, -0.03, 0, 0.99);
             box-shadow: -2.2px 2px 15px -8px, 10px 0px 15px -20px;
         }
-        @keyframes smth{
-            0%{
-               margin-right: 0;
-            }
-            40%{
-                
-                margin-right: 0;   
-                  
-            }
-            41%{
-                margin-right: -53.5px;
-            }
-            60%{
-                transform-origin: left;
-                margin-right: -53.5px;
-                
-            }
-            100%{
-                transform-origin: left;
-                margin-right: 3px;
-            }
-        }
         .card > .row{
             color: white;
             text-shadow: rgba(255, 255, 255, 0.2);
@@ -2614,11 +2592,11 @@ nav ul{
                   
             }
             41%{
-                margin-right: -53.5px;
+                margin-right: -16vw;
             }
             60%{
                 transform-origin: left;
-                margin-right: -53.5px;
+                margin-right: -16vw;
                 
             }
             100%{
@@ -3205,28 +3183,6 @@ nav ul{
     #II{
         font-size: 85%;
         line-height: 1.2;
-    }
-    @keyframes smth{
-        0%{
-           margin-right: 0;
-        }
-        40%{
-            
-            margin-right: 0;   
-              
-        }
-        41%{
-            margin-right: -53.5px;
-        }
-        60%{
-            transform-origin: left;
-            margin-right: -53.5px;
-            
-        }
-        100%{
-            transform-origin: left;
-            margin-right: 5px;
-        }
     }
     .vid0{
         height: 168px;
