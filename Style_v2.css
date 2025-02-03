@@ -2702,7 +2702,7 @@ nav ul{
         color: rgb(17, 14, 9);
         text-shadow: none;
         margin-right: 0;
-        padding: 15px 5px 5px;
+        padding: 0;
         line-height: 1.4;
         max-height: 0;
         overflow: hidden;
@@ -3305,7 +3305,7 @@ nav ul{
     .accordion .content{
         color: rgb(17, 14, 9);
         text-shadow: none;
-        padding: 5px 5px 5px;
+        padding: 0;
         line-height: 1.4;
         max-height: 0;
         overflow: hidden;
