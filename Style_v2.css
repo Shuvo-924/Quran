@@ -151,7 +151,7 @@ nav .logo{
     display: flex;
     position: absolute;
     top: 105%;
-    right: 38%;
+    right: 43%;
     z-index: 1;
     cursor: pointer;
     transform: scale(1);
@@ -3464,6 +3464,7 @@ nav ul{
         height: 7.2vh;
     }
 }
+
 
 
 
